@@ -1,4 +1,5 @@
 import {
+  FacebookIcon,
   Instagram,
   Linkedin,
   Mail,
@@ -59,7 +60,7 @@ export const ContactSection = () => {
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    dimaincyrusbon@gmail.com
                   </a>
                 </div>
               </div>
@@ -73,7 +74,7 @@ export const ContactSection = () => {
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    09610928383
                   </a>
                 </div>
               </div>
@@ -84,7 +85,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    Zamboanga City, Philippines
                   </a>
                 </div>
               </div>
@@ -93,17 +94,11 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <Linkedin />
+                <a href="https://www.facebook.com/SunLordCyrus" target="_blank">
+                  <FacebookIcon />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/cb._.damian/?hl=en" target="_blank">
                   <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
                 </a>
               </div>
             </div>
@@ -115,7 +110,10 @@ export const ContactSection = () => {
           >
             <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
-            <form className="space-y-6">
+            <form 
+            action="https://getform.io/f/bpjpvqeb"
+            method="POST"
+            className="space-y-6">
               <div>
                 <label
                   htmlFor="name"
@@ -130,7 +128,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Pedro Machado..."
+                  placeholder="Cyrus Bon..."
                 />
               </div>
 
@@ -148,7 +146,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="sample@gmail.com"
                 />
               </div>
 
@@ -171,7 +169,6 @@ export const ContactSection = () => {
 
               <button
                 type="submit"
-                disabled={isSubmitting}
                 className={cn(
                   "cosmic-button w-full flex items-center justify-center gap-2"
                 )}
