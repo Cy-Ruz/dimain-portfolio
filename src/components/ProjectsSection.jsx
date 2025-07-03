@@ -7,8 +7,8 @@ const projects = [
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "",
+    githubUrl: "",
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const projects = [
       "Full-featured art e-commerce platform with user authentication and payment processing.",
     image: "/projects/torch.png",
     tags: ["PHP", "TailwindCSS", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "",
+    githubUrl: "https://github.com/Cy-Ruz/TORCHweb",
   },
 ];
 
